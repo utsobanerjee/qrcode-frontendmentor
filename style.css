@@ -1,3 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 .flex-container {
     display: flex;
     justify-content: center;
@@ -8,15 +13,32 @@
 .qr-code-container{
     display: flex;
     flex-direction: column;
-    width: 1440px;
-    padding: 10px;
+    width:50%;
+    height: 50%;
+    margin: 95px 500px;
+
+    padding: 20px;
     background-color: hsl(0,0%,100%);
+    border-radius: 10px;
+    gap: 10px;
 }
+img {
+    height: 50%;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
 .first-para{
     font-weight: 700;
     color: black;
+    text-align: center;
+    flex-wrap: wrap;
 }
 .second-para {
     font-weight: 400;
-    color: lightgray;
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+    flex-wrap: wrap;
+
 }
