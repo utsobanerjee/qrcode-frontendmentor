@@ -19,6 +19,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Overview
 
+In this projecct we had to create the basic QR Code Design given by frontend mentor . It's built with basic concepts of html and css 
+
 ### Screenshot
 
 ![](./screenshot.jpg)
